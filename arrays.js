@@ -42,5 +42,6 @@ function removeElementFromBeginningOfArray(array) {
 
 //Removes the last element of an array. Your function should return the entire array, and it should mutate the array.
 function destructivelyRemoveElementFromEndOfArray(array) {
-  return array.pop();
+  array.pop()
+  return array
 }
