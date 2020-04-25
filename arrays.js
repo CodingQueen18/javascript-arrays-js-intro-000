@@ -45,3 +45,8 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop()
   return array
 }
+
+//Takes an array as its only argument and removes the last element. Your function should return the array without the last element, and it should not mutate the original array.
+function removeElementFromEndOfArray(array) {
+  return array.slice(-1)
+}
